@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Contact Us</title>
+
+	<style>
+	{ margin: 0;
+  	padding: 0;
+	 }
+
+header 
+ul{
+	float: right;
+	list-style-type: none;	
+}
+
+ul li{
+	display: inline-block;
+	margin-top: 25px;
+	background-color: #008B8B;
+	
+}
+ul li a{
+	text decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+	
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;  
+  border: 5px solid #ccc; 
+  border-radius: 18px; 
+  box-sizing: border-box; 
+  margin-top: 15px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 25%;
+  text-align: center;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 7px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+.button{
+ margin-top: -27px;
+ text-align: right;
+
+}
+.button a{
+ background-color: #04AA6D;
+ padding:12px 26px;
+ text-decoration: none;
+ color:#fff;
+ font-size: 15px;
+ letter-spacing: 0px;
+}
+.button a:hover{
+ background-color: #45a049;
+ color:#fff;
+
+}
+.footer {
+	position: realtive;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background: black;
+	color: white;
+	text-align: center;
+	
+}
+
+</style>
+	</head>
+	<body>
+		<h2>Send e-mail to S&M SECUROTEX@gmail.com:</h2>
+
+			<form action="https://formspree.io/f/mwkjnely" method="POST">
+		
+		<div class="container">
+ 	
+
+   		 <label for="fname">First Name</label>
+   			 <input type="text" id="fname" name="firstname"required placeholder="Your name..">
+
+    		<label for="lname">Last Name</label>
+   			 <input type="text" id="lname" name="lastname"required placeholder="Your last name..">
+   			 
+          <div>
+           <label for="email">Email id</label>
+           </div>
+            <div>
+            <input type="text" name="email"required placeholder="Your Email id..">
+             </div>
+          
+        <label for="number">Mobile Number</label>
+   			 <input type="text" id="number" name="mobilenumber"required placeholder="Your Mobile Number..">
+
+
+   		 <label for="country">Country</label>
+   			<select id="country" name="country" required>
+     				 <option value="india">India</option>
+     			 	<option value="canada">Canada</option>
+     				 <option value="usa">USA</option>
+   			 </select>
+
+   			 <label for="subject">Subject</label>
+   			 <textarea id="subject" name="subject" required placeholder="Write something.." style="height:200px"></textarea>
+   			 
+    				<input type="submit" value="Submit" name="submit">
+					 <div class="form-group"> 
+
+							<div class="button"> 
+								<a href="index.html">Back</a> 
+									</div>
+
+						 		
+			</form>
+				
+	<ul>
+	   <li><a href="indexsm.html">Home</a></li>
+	   <li><a href="servicesectionsm.html">Services</a></li>
+	   <li><a href="aboutussm.html">About Us</a></li>
+	   <li><a href="contactsm.html">Contact Us</a></li>
+	   <li><a href="loginsm.html">Login/Register</a></li>
+	</ul>
+		</div>
+<div class="footer">
+ <p>Copyright &copy; 2020 The S&M SECUROTEX.</p>
+  <p>Created by Srishti Arora</p>
+</div>
+
+
+
+</body>
+</html>
